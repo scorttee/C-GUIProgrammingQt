@@ -1,0 +1,9 @@
+﻿  uic QtWidgetsApplication1.ui
+  rcc QtWidgetsApplication1.qrc
+  moc QtWidgetsApplication1.h
+   RCC: Warning: No resources in 'C:\Users\ASUS\Documents\code\C++GUIProgrammingQt\QtWidgetsApplication1\QtWidgetsApplication1.qrc'.
+  QtWidgetsApplication1.cpp
+  main.cpp
+  qrc_QtWidgetsApplication1.cpp
+  moc_QtWidgetsApplication1.cpp
+  QtWidgetsApplication1.vcxproj -> C:\Users\ASUS\Documents\code\C++GUIProgrammingQt\QtWidgetsApplication1\x64\Release\QtWidgetsApplication1.exe
