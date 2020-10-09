@@ -9,7 +9,7 @@ class QtWidgetsApplication1 : public QMainWindow
 
 public:
     QtWidgetsApplication1(QWidget *parent = Q_NULLPTR);
-    ~QtWidgetsApplication1();
+    ~QtWidgetsApplication1() = default;
 private:
     Ui::QtWidgetsApplication1Class ui;
 };
