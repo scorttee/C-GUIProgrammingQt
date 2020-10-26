@@ -1,11 +1,11 @@
-#include "QtWidgetsApplication1.h"
+#include "Dialog1.h"
 #include <QtWidgets/QApplication>
 #include <QLabel>
 #include <QPushButton>
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    QtWidgetsApplication1* w = new  QtWidgetsApplication1();
+    /*
     QLabel* label = new QLabel("<h2><i>Hello</i>" 
                                "<font color=red>Qt!</font></h2>");
     QPushButton* pushbutton = new QPushButton("Quit");
@@ -14,6 +14,10 @@ int main(int argc, char *argv[])
     label->setParent(w);
     pushbutton->setParent(w);
     pushbutton->resize(300, 100);
-    w->show();
+    */
+    DlgFirst* dlg = new DlgFirst();
+    while (dlg->exec()) {
+        return -1;
+    }
     return a.exec();
 }

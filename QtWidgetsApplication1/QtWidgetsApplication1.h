@@ -11,5 +11,5 @@ public:
     QtWidgetsApplication1(QWidget *parent = Q_NULLPTR);
     ~QtWidgetsApplication1() = default;
 private:
-    Ui::QtWidgetsApplication1Class ui;
+    Ui::QtWidgetsApplication1Class* ui;
 };
